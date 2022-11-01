@@ -1,0 +1,152 @@
+/*HEADER Y NAV*/
+.body {
+    background: linear-gradient(to left, #edaef9, #81b1fa);
+}
+/* UTILIZANDO FLEX */
+.logoPrincipal {
+        height: 150px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+/* TERMINA UTILIZANDO FLEX */
+.logoPrincipal img{
+        text-align: center;
+        height: 100px;
+}
+.navLogo {
+        color: #E6E6FA;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu {
+        width: 100%;
+        text-align: center;
+        border: #0B3675 solid 3px;
+}
+.menu ul{
+        list-style: none;
+}
+.menu ul li{
+        display: inline-block;
+        padding: 20px;
+}
+.menu ul li a{
+        color: #E6E6FA	;
+        text-decoration: none;
+}
+.contenedor {
+        height: 75px;
+}
+/* UTILIZANDO GRID */
+.contenedorGrid {
+    display: grid;
+    grid-template-areas: 
+    busqueda busqueda busqueda
+    loggin loggin carrito;
+}
+.buscarYLoggin {
+    grid-area: busqueda;
+}
+.carrito {
+    grid-area: carrito;
+}
+.inicioSesion {
+    grid-area: loggin;
+}
+/* TERMINA UTILIZANDO GRID */
+.carrito {
+        text-align: right;
+        margin-right: 15px;
+        height: 30px;
+}
+.buscarYLoggin {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+}
+.inicioSesion {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+}
+/* CONTENIDO GENERAL */
+.row {
+    margin-bottom: 100px;
+}
+.col-sm-6    {
+    margin-bottom: 100px;
+}
+.fotoIndexArriba {
+    border: #0B3675 solid 3px;
+    margin-top: 50px;
+}
+.fotoIndexAbajo {
+    border: #0B3675 solid 3px;
+}
+.comoTrabajamos {
+    color: #E6E6FA;
+    margin-top: 25px;
+}
+.h2Subt{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}
+.parrafo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #E6E6FA;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 75px;
+    font-size: large;
+}
+/* PRODUCTOS */
+.textProducto {
+    color: #E6E6FA;
+}
+.precio {
+    color: #0B3675;
+}
+/* QUIENES SOMOS  */
+.quienesSomos {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #E6E6FA;
+    text-decoration: underline;
+}
+.lorem {
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #E6E6FA;
+    font-size: large;
+}
+/* FOOTER */
+.footerEdit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    text-align: center;
+}
+.seguinosInsta {
+    margin-top: 50px;
+}
+.redesSociales {
+    padding: 5px;
+}
+.copy {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
